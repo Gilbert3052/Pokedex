@@ -1,0 +1,107 @@
+.Card__poke {
+    width: 300px;
+    height: 460px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid black;
+    cursor: pointer;
+}
+.Card__poke:hover {
+    transform: scale(1.05);
+}
+
+.card__poke__header {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.card__poke__header img {
+    width: 100%;
+    height: 100%;
+}
+
+.poke__img {
+    width: 150px;
+    height: 150px;
+    transform: translateY(25px);
+    z-index: 10;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+.card__poke__header-img {
+    margin: auto;
+}
+
+.card__poke__main {
+    background-color: white;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.card-poke__body {
+    text-align: center;
+}
+
+.card-poke__body__name {
+    text-transform: capitalize;
+}
+
+.card-poke__stats-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.line {
+    width: 90%;
+    height: .5px;
+    background-color: #0003;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.card-poke__stat {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-poke__types-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card-poke__type {
+    font-weight: bold;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.card-poke__type:nth-child(2)::before {
+    content: "/ ";
+    position: absolute;
+    left: -9px;
+}
+
+.card-poke__type-label{
+    color: gray;
+    font-size: 13px;
+    
+}
+
+.card-poke__stat-label {
+    font-size: 13px;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.card-poke__stat-number {
+    font-weight: bold;
+}

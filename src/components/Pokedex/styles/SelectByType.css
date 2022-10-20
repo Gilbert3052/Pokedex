@@ -1,0 +1,11 @@
+
+.Select__pokedex {
+    padding: 8px 10px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.Select__pokedex:hover {
+    filter: brightness(1.1);
+  }

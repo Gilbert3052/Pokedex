@@ -1,0 +1,24 @@
+.pokedex__in__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: rgb(241, 238, 238);
+}
+
+.pokedex__in__input {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.pokedex__in__btn {
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pokedex__in__btn:hover {
+    filter: brightness(1.2);
+}

@@ -1,0 +1,31 @@
+.Pagination {
+    margin: 1.5rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+
+.btn__pagination {
+    background: transparent;
+    cursor: pointer;
+    color: black;
+}
+
+.btn__pagination:hover {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.btn__active {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+box-icon#asd {
+    border: 2px solid black;
+    border-radius: 50%;
+}
